@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="?attr/colorPrimary"
+    android:minHeight="?attr/actionBarSize"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    tools:layout_editor_absoluteX="10dp"
+    tools:layout_editor_absoluteY="429dp"
+    android:elevation="@dimen/elevacion_action_bar">
+
+    <ImageButton
+        android:id="@+id/btnLike"
+        android:layout_width="@dimen/tamano_cv_icon"
+        android:layout_height="@dimen/tamano_cv_icon"
+        android:background="@drawable/estrella"
+        android:layout_marginLeft="250dp"
+        android:theme="@style/RaisedBtn"
+        android:onClick="mostrarMascotasSeguidas"/>
+
+    <ImageButton
+        android:id="@+id/btnHuella"
+        android:background="@drawable/huella"
+        android:theme="@style/RaisedBtn"
+        android:layout_height="35dp"
+        android:layout_width="35dp"
+        android:layout_marginLeft="10dp"/>
+
+</androidx.appcompat.widget.Toolbar>

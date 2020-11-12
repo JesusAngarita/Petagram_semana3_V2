@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding">3dp</dimen>
+    <dimen name="margen">5dp</dimen>
+    <dimen name="margen_derecho">150dp</dimen>
+    <dimen name="corner_radius">10dp</dimen>
+    <dimen name="tamano_cv">15dp</dimen>
+    <dimen name="tamano_cv_icon">35dp</dimen>
+    <dimen name="elevacion_action_bar">4dp</dimen>
+</resources>

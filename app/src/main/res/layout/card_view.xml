@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:id="@+id/cvMascota"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margen"
+    android:layout_marginRight="@dimen/margen"
+    android:layout_marginBottom="@dimen/margen"
+    android:layout_marginLeft="@dimen/margen"
+    card_view:cardCornerRadius="@dimen/corner_radius">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/margen"
+        android:layout_marginRight="@dimen/margen"
+        android:layout_marginBottom="@dimen/margen"
+        android:layout_marginLeft="@dimen/margen">
+
+        <ImageView
+            android:id="@+id/imgPerro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/perro_uno" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/fondo_cv"
+            android:paddingTop="@dimen/padding"
+            android:paddingRight="@dimen/padding"
+            android:paddingBottom="@dimen/padding"
+            android:paddingLeft="@dimen/padding">
+
+            <ImageButton
+                android:id="@+id/btnLike"
+                android:layout_width="@dimen/tamano_cv_icon"
+                android:layout_height="@dimen/tamano_cv_icon"
+                android:background="@drawable/hueso_blanco"
+                android:layout_marginLeft="@dimen/margen"/>
+
+            <TextView
+                android:id="@+id/tvCVNombrePerro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nombre"
+                android:textStyle="bold"
+                android:textSize="@dimen/tamano_cv"
+                android:layout_marginLeft="@dimen/margen"
+                android:layout_marginRight="@dimen/margen_derecho"/>
+
+            <TextView
+                android:id="@+id/tvCVCantidadLikePerro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cant_likes"
+                android:textSize="@dimen/tamano_cv"/>
+
+            <ImageView
+                android:layout_width="@dimen/tamano_cv_icon"
+                android:layout_height="@dimen/tamano_cv_icon"
+                android:src="@drawable/hueso_amarillo"
+                android:layout_marginLeft="@dimen/margen"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#2E86C1</color>
+    <color name="colorPrimaryDark">#154360</color>
+    <color name="colorAccent">#17A589</color>
+    <color name="colorBlanco">#FFFFFF</color>
+    <color name="fondo_cv">#EAEDED</color>
+</resources>
